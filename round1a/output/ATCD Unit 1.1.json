@@ -1,0 +1,120 @@
+{
+  "title": "ATCD Unit 1.1.pdf",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "23CS(AI&DS)7301",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "AUTOMATA AND COMPILER DESIGN",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "UNIT - 1",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Language Processing System",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Pre-processor",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Compiler",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Assembler",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Linker",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Loader",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Executable Code",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Types of Language Processors",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Compiler",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "1. The identifier  position .",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "3. The identifier  initial .",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "5. The identifier  rate .",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Phases in Compiler:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Passes in Compiler:",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Errors Encountered in the Analysis Phase of a Compiler:",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "1. Lexical Errors (Scanner Phase)",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "2. Syntax Errors (Parser Phase)",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "3. Semantic Errors (Semantic Analysis Phase)",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "4. Symbol Table Errors",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "5. Type Checking Errors",
+      "page": 13
+    }
+  ]
+}

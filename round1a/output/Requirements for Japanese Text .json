@@ -1,0 +1,805 @@
+{
+  "title": "Requirements for Japanese Text Layout 日本語組版処理の要件（日本語版）",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Requirements for Japanese Text Layout",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "日本語組版処理の要件（日本語版）",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "W3C Working Group Note 11 August 2020",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Abstract",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Status of This Document",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Table of Contents",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "1. Introduction  序論 §",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1.1 Purpose of This Document  この文書の目的 §",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1.2 How This Document was Created  この文書の作成方法 §",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "な用語は極力避けるように努めた．英語の用語との対応についても，用語の定義内容を検討し，概",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "1.3 Basic Principles for Development of This Document  この文書の執筆方針 §",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "要な事項に限定した．そのため，詳細な処理内容はJIS X 4051にゆずり，参照だけで示した箇",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "されている内容だけではなく，それ以外で重要と思われる事項についても解説するようにし",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "た．したがって，本文書の内容を実装することで，日本の大部分の市場要求に応えることがで",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "たる例外的な内容を知るためにはJIS X 4051を参照する必要がある．",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "は，その処理内容が多様であり，これらについて最も古くから多くの人々により問題点が考え",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "1.4 The Structure of This Document  この文書の構成 §",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "1.5 Reference of Definition and Others  用語の参照その他 §",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "2. Basics of Japanese Composition  日本語組版の基本 §",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "2.1 Characters and the Principles of Setting them for Japanese Composition  日本語組版に",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "使用する文字と配置の原則 §",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "次のようにベタ組にしない方法も，印刷物の内容によっては採用されている．",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "実際のページの設計例   のcで解説するように， 目次 などは基本となる組体裁を元に設計をしなお",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "2.2 Page Formats for Japanese Documents  日本語文書の基本となる組体裁 §",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "雑誌は，性格の異なる記事の集合である．そこで記事内容により，ある部分は9ポイントの3段組，",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ある部分は8ポイントの4段組と，記事内容により組体裁を変えている例が多い．",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "目次の版面サイズ",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "書籍の目次の版面サイズは，基本版面のサイズを基準に設計する．例えば，縦組の目次では，",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Figure 17:  Example of the design of the table of contents (TOC) in vertical writing mode.  縦組の目次版面の設計",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "2.3 Vertical Writing Mode and Horizontal Writing Mode  組方向（縦組と横組） §",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "2.4 Specifying the Kihon-hanmen  基本版面の設計 §",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "基本版面は，次のような事項を考慮し設計する（以下の説明は処理内容というよりは，どのように",
+      "page": 68
+    },
+    {
+      "level": "H2",
+      "text": "2.5 Page wise Arrangement of Kihon-hanmen Elements  基本版面の設計要素の各ページ",
+      "page": 80
+    },
+    {
+      "level": "H2",
+      "text": "に対する適用 §",
+      "page": 80
+    },
+    {
+      "level": "H2",
+      "text": "2.6 Running Heads and Page Numbers  柱とノンブル §",
+      "page": 107
+    },
+    {
+      "level": "H3",
+      "text": "目次 ， 索引 などの文字を配置する領域が，基本版面のサイズより小さくなる場合でも，仕上りサ",
+      "page": 116
+    },
+    {
+      "level": "H3",
+      "text": "イズに対する柱及びノンブルの位置は同じである．したがって，目次，索引などの文字を配置す",
+      "page": 116
+    },
+    {
+      "level": "H3",
+      "text": "る領域が基本版面のサイズより小さくなった分だけ，目次，索引などの文字を配置する領域",
+      "page": 116
+    },
+    {
+      "level": "H3",
+      "text": "り小さくした目次の版面と柱及びノンブルとの位置関係を示したものであり， Figure  52 は，基本",
+      "page": 116
+    },
+    {
+      "level": "H3",
+      "text": "the kihon-hanmen.  基本版面より小さくなった目次の版面と柱及びノンブルとの位置関係",
+      "page": 118
+    },
+    {
+      "level": "H3",
+      "text": "柱は，原則として各ページに1つだけ配置するが，辞典などでは，各ページに内容を示す柱を複",
+      "page": 125
+    },
+    {
+      "level": "H3",
+      "text": "しを掲げる．ただし，目次などアウトラインレベルの異なる見出しのない部分では，偶数ペー",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "text": "柱に何を掲げるかは，その書籍の内容による．読者が各ページに何が書かれているかを検",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "text": "索する，又は現在説明されている内容を確認することが主な目的である．その点では書名",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "text": "柱は，原則として見出しと同じ内容を掲げるが，次のような例外がある．",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "3. Line Composition  行の組版処理 §",
+      "page": 130
+    },
+    {
+      "level": "H2",
+      "text": "3.1 Line Composition Rules for Punctuation Marks  約物などの組版処理 §",
+      "page": 130
+    },
+    {
+      "level": "H2",
+      "text": "3.2 Japanese and Western Mixed Text Composition (including Horizontal-in-Vertical Text",
+      "page": 190
+    },
+    {
+      "level": "H2",
+      "text": "Composition)  和欧文混植処理（縦中横処理を含む） §",
+      "page": 190
+    },
+    {
+      "level": "H2",
+      "text": "3.3 Ruby and Emphasis Dots  ルビと圏点処理 §",
+      "page": 211
+    },
+    {
+      "level": "H2",
+      "text": "3.4 Inline Cutting Note (Warichu)  割注処理 §",
+      "page": 265
+    },
+    {
+      "level": "H2",
+      "text": "3.5 Paragraph Adjustment Rules  段落整形，そろえ及び段落末尾処理 §",
+      "page": 271
+    },
+    {
+      "level": "H2",
+      "text": "3.6 Tab Setting  タブ処理 §",
+      "page": 294
+    },
+    {
+      "level": "H2",
+      "text": "3.7 Other Rules of Japanese Typesetting  その他の行組版処理 §",
+      "page": 304
+    },
+    {
+      "level": "H3",
+      "text": "振分けを含む段落の行間は，指定による．そこに配置される振分けの内容を考慮して指定する必要",
+      "page": 309
+    },
+    {
+      "level": "H2",
+      "text": "3.8 Line Adjustment  行の調整処理 §",
+      "page": 322
+    },
+    {
+      "level": "H2",
+      "text": "3.9 About Character Classes  文字クラスについて §",
+      "page": 334
+    },
+    {
+      "level": "H2",
+      "text": "4. Positioning of Headings, Notes, Illustrations, Tables and Paragraphs  見出",
+      "page": 348
+    },
+    {
+      "level": "H2",
+      "text": "し・注・図版・表・段落の配置処理 §",
+      "page": 348
+    },
+    {
+      "level": "H2",
+      "text": "4.1 Handling of Headings (including Page Breaks)  見出し処理（改ページ処理も含む） §",
+      "page": 348
+    },
+    {
+      "level": "H3",
+      "text": "中扉は，書籍の内容を大きく区分する場合に用いる．標題のために1ページを用い（改丁とする），",
+      "page": 349
+    },
+    {
+      "level": "H3",
+      "text": "多くの書籍では中扉又は半扉を付けている．大きく内容を区切る要素がない場合は，前付の直後，",
+      "page": 351
+    },
+    {
+      "level": "H3",
+      "text": "見出しは，内容を区分するまとまりに付ける標題である．内容の区分は，一般に階層構造をと",
+      "page": 353
+    },
+    {
+      "level": "H3",
+      "text": "見出しの階層構造をどのようにするかは，書籍の内容による．一般に3段階又は4段階程度に止",
+      "page": 354
+    },
+    {
+      "level": "H3",
+      "text": "めておくのが内容理解の面から望ましいという意見がある．",
+      "page": 354
+    },
+    {
+      "level": "H3",
+      "text": "また，文章の内容から判断して行う．例えば，固有名詞などを途中で分割しないようにす",
+      "page": 385
+    },
+    {
+      "level": "H2",
+      "text": "4.2 Processing of Notes  注の処理 §",
+      "page": 451
+    },
+    {
+      "level": "H3",
+      "text": "どのような注の方式を選択するかは，その書籍における注の主な目的，注の分量，注の内容な",
+      "page": 469
+    },
+    {
+      "level": "H2",
+      "text": "4.3 Positioning of Illustrations  図版の配置処理 §",
+      "page": 517
+    },
+    {
+      "level": "H3",
+      "text": "らない．なお，版面いっぱいに配置する場合でも，図版の内容によっては，版面から1mm程度",
+      "page": 525
+    },
+    {
+      "level": "H3",
+      "text": "これまでの説明を前提にして，JIS X 4051の図版をページに配置する処理の主な規定内容を紹介す",
+      "page": 539
+    },
+    {
+      "level": "H2",
+      "text": "4.4 Processing of Tables  表の処理 §",
+      "page": 551
+    },
+    {
+      "level": "H3",
+      "text": "表の全体の組方向が横組の場合の原点の位置及びこま内容の配列順序は，次のようにする（ Figure",
+      "page": 556
+    },
+    {
+      "level": "H3",
+      "text": "列こま合成したこまを含む表の場合，列こま合成したこまに配置するこま内容は，列こま合成",
+      "page": 556
+    },
+    {
+      "level": "H3",
+      "text": "ま内容を配置するが，3行目では，8番目のこま内容は列こま合成したこまを飛ばし，2列目に",
+      "page": 556
+    },
+    {
+      "level": "H3",
+      "text": "表における原点の位置及びこま内容の配列順序",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "text": "表の全体の組方向が縦組の場合の原点の位置及びこま内容の配列順序は，次のようにする（ Figure",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "text": "る原点の位置及びこま内容の配列順序",
+      "page": 557
+    },
+    {
+      "level": "H3",
+      "text": "列こま合成したこまを含む表の場合，列こま合成したこまに配置するこま内容は，列こま合成",
+      "page": 558
+    },
+    {
+      "level": "H3",
+      "text": "ま内容を配置するが，3行目では，8番目のこま内容は列こま合成したこまを飛ばし，2列目に",
+      "page": 558
+    },
+    {
+      "level": "H3",
+      "text": "1つのこま内容における組方向は，横組又は縦組のいずれか一方とする．混在してはならない．組",
+      "page": 558
+    },
+    {
+      "level": "H3",
+      "text": "を配置する”との記載がある．したがって，この方法で処理する場合は，罫線とこま内容と",
+      "page": 564
+    },
+    {
+      "level": "H3",
+      "text": "し，その左右の空き量としてそのこま内容の文字サイズの各二分アキを加え，かつ，表に使用",
+      "page": 564
+    },
+    {
+      "level": "H3",
+      "text": "した文字サイズの整数倍になるように設定してある．また，同じような内容が配置される場合",
+      "page": 564
+    },
+    {
+      "level": "H3",
+      "text": "罫線とこま内容の行送り方向の空き量は，可視の罫線との間は二分アキ，不可視の罫線との間",
+      "page": 565
+    },
+    {
+      "level": "H3",
+      "text": "ものであるが，表の内容によっては，必ずしもこまを単位とした分割ではなく，こまの中",
+      "page": 584
+    },
+    {
+      "level": "H3",
+      "text": "ヘッダー行は，分割した次のページの冒頭にも先頭ページに掲げたものと同じ内容で掲げる．",
+      "page": 585
+    },
+    {
+      "level": "H2",
+      "text": "4.5 Block Direction Setting Process of Lines, Paragraphs etc.  行・段落などの行送り方向",
+      "page": 586
+    },
+    {
+      "level": "H2",
+      "text": "の配置処理 §",
+      "page": 586
+    },
+    {
+      "level": "H3",
+      "text": "後ろに連続する部分があるが，横組の脚注などのように基本版面で設定した内容と異なる要素を版",
+      "page": 606
+    },
+    {
+      "level": "H2",
+      "text": "A. Character Classes  文字クラス一覧 §",
+      "page": 615
+    },
+    {
+      "level": "H2",
+      "text": "A.1 Opening brackets (cl-01)  始め括弧類（cl-01） §",
+      "page": 616
+    },
+    {
+      "level": "H2",
+      "text": "A.2 Closing brackets (cl-02)  終わり括弧類（cl-02） §",
+      "page": 617
+    },
+    {
+      "level": "H2",
+      "text": "A.3 Hyphens (cl-03)  ハイフン類（cl-03） §",
+      "page": 618
+    },
+    {
+      "level": "H2",
+      "text": "A.4 Dividing punctuation marks (cl-04)  区切り約物（cl-04） §",
+      "page": 619
+    },
+    {
+      "level": "H2",
+      "text": "A.5 Middle dots (cl-05)  中点類（cl-05） §",
+      "page": 619
+    },
+    {
+      "level": "H2",
+      "text": "A.6 Full stops (cl-06)  句点類（cl-06） §",
+      "page": 619
+    },
+    {
+      "level": "H2",
+      "text": "A.7 Commas (cl-07)  読点類（cl-07） §止文",
+      "page": 619
+    },
+    {
+      "level": "H2",
+      "text": "A.8 Inseparable characters (cl-08)  分離禁止文字（cl-08） §",
+      "page": 620
+    },
+    {
+      "level": "H2",
+      "text": "A.9 Iteration marks (cl-09)  繰返し記号（cl-09） §",
+      "page": 620
+    },
+    {
+      "level": "H2",
+      "text": "A.10 Prolonged sound mark (cl-10)  長音記号（cl-10） §",
+      "page": 621
+    },
+    {
+      "level": "H2",
+      "text": "A.11 Small kana (cl-11)  小書きの仮名（cl-11） §",
+      "page": 621
+    },
+    {
+      "level": "H2",
+      "text": "A.12 Prefixed abbreviations (cl-12)  前置省略記号（cl-12） §",
+      "page": 623
+    },
+    {
+      "level": "H2",
+      "text": "A.13 Postfixed abbreviations (cl-13)  後置省略記号（cl-13） §",
+      "page": 623
+    },
+    {
+      "level": "H2",
+      "text": "A.14 Full-width ideographic space (cl-14)  和字間隔（cl-14） §",
+      "page": 625
+    },
+    {
+      "level": "H2",
+      "text": "A.15 Hiragana (cl-15)  平仮名（cl-15） §",
+      "page": 625
+    },
+    {
+      "level": "H2",
+      "text": "A.16 Katakana (cl-16)  片仮名（cl-16） §",
+      "page": 627
+    },
+    {
+      "level": "H2",
+      "text": "A.17 Math symbols (cl-17)  等号類（cl-17） §",
+      "page": 630
+    },
+    {
+      "level": "H2",
+      "text": "A.18 Math operators (cl-18)  演算記号（cl-18） §",
+      "page": 632
+    },
+    {
+      "level": "H2",
+      "text": "A.19 Ideographic characters (cl-19)  漢字等（漢字以外の例）（cl-19） §",
+      "page": 632
+    },
+    {
+      "level": "H2",
+      "text": "A.20 Characters as reference marks (cl-20)  合印中の文字（cl-20） §",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "A.21 Ornamented character complexes (cl-21)  親文字群中の文字（添え字付き）（cl-",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "21） §",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "A.22 Simple-ruby character complexes (cl-22)  親文字群中の文字（熟語ルビ以外のルビ",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "付き）（cl-22） §",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "A.23 Jukugo-ruby character complexes (cl-23)  親文字群中の文字（熟語ルビ付き）（cl-",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "23） §文",
+      "page": 651
+    },
+    {
+      "level": "H2",
+      "text": "A.24 Grouped numerals (cl-24)  連数字中の文字（cl-24） §",
+      "page": 652
+    },
+    {
+      "level": "H2",
+      "text": "A.25 Unit symbols (cl-25)  単位記号中の文字（cl-25） §",
+      "page": 652
+    },
+    {
+      "level": "H2",
+      "text": "A.26 Western word space (cl-26)  欧文間隔（cl-26） §",
+      "page": 656
+    },
+    {
+      "level": "H2",
+      "text": "A.27 Western characters (cl-27)  欧文用文字（cl-27） §",
+      "page": 656
+    },
+    {
+      "level": "H2",
+      "text": "A.28 Warichu opening brackets (cl-28)  割注始め括弧類（cl-28） §",
+      "page": 712
+    },
+    {
+      "level": "H2",
+      "text": "A.29 Warichu closing brackets (cl-29)  割注終わり括弧類（cl-29） §",
+      "page": 712
+    },
+    {
+      "level": "H2",
+      "text": "A.30 Characters in tate-chu-yoko (cl-30)  縦中横中の文字（cl-30） §",
+      "page": 712
+    },
+    {
+      "level": "H2",
+      "text": "B. Spacing between Characters  文字間の空き量 §",
+      "page": 712
+    },
+    {
+      "level": "H2",
+      "text": "B.1 Legend of Table 1  表1の見方 §",
+      "page": 713
+    },
+    {
+      "level": "H2",
+      "text": "B.2 Notes  注記 §",
+      "page": 716
+    },
+    {
+      "level": "H2",
+      "text": "C. Possibilities for Line-breaking between Characters  文字間での分割の可",
+      "page": 721
+    },
+    {
+      "level": "H2",
+      "text": "否 §",
+      "page": 721
+    },
+    {
+      "level": "H2",
+      "text": "C.1 Legend of Table 2  表2の見方 §",
+      "page": 721
+    },
+    {
+      "level": "H2",
+      "text": "C.2 Notes  注記 §",
+      "page": 722
+    },
+    {
+      "level": "H2",
+      "text": "C.3 Addendum  補記 §",
+      "page": 725
+    },
+    {
+      "level": "H2",
+      "text": "D. Opportunities for Inter-character Space Reduction during Line Adjustment",
+      "page": 728
+    },
+    {
+      "level": "H2",
+      "text": "行の調整処理で​詰める処理が​可能な箇所 §見方",
+      "page": 728
+    },
+    {
+      "level": "H2",
+      "text": "D.1 Legend of Tables 3, 4 and 5  表3，表4及び表5の見方 §",
+      "page": 729
+    },
+    {
+      "level": "H2",
+      "text": "D.2 Notes  注記 §",
+      "page": 731
+    },
+    {
+      "level": "H2",
+      "text": "E. Opportunities for Inter-character Space Expansion during Line Adjustment",
+      "page": 733
+    },
+    {
+      "level": "H2",
+      "text": "行の調整処理で​空ける処理が​可能な箇所 §",
+      "page": 733
+    },
+    {
+      "level": "H2",
+      "text": "E.1 Legend of Table 6  表6の見方 §",
+      "page": 733
+    },
+    {
+      "level": "H2",
+      "text": "E.2 Notes  注記 §",
+      "page": 735
+    },
+    {
+      "level": "H2",
+      "text": "F. Positioning of Jukugo-ruby  熟語ルビの配置方法 §",
+      "page": 738
+    },
+    {
+      "level": "H2",
+      "text": "F.1 Principles of Jukugo-Ruby Distribution: Part 1  熟語ルビの配置方法の原則その1   §",
+      "page": 738
+    },
+    {
+      "level": "H2",
+      "text": "F.2 Principles of Jukugo-Ruby Distribution: Part 2  熟語ルビの配置方法の原則その2   §",
+      "page": 740
+    },
+    {
+      "level": "H2",
+      "text": "F.3 Principles of Jukugo-Ruby Distribution with Inter-Character Space Expansion  熟語ル",
+      "page": 749
+    },
+    {
+      "level": "H2",
+      "text": "ビの親文字の字間を空ける処理の原則 §",
+      "page": 749
+    },
+    {
+      "level": "H2",
+      "text": "F.4 Examples of Jukugo-Ruby Distribution with Inter-Character Space Expansion  熟語ル",
+      "page": 750
+    },
+    {
+      "level": "H2",
+      "text": "ビの親文字の字間を空ける処理例 §",
+      "page": 750
+    },
+    {
+      "level": "H2",
+      "text": "G. Terminology  用語集 §",
+      "page": 757
+    },
+    {
+      "level": "H3",
+      "text": "本文の内容に関係の深",
+      "page": 758
+    },
+    {
+      "level": "H3",
+      "text": "こま 内容",
+      "page": 760
+    },
+    {
+      "level": "H3",
+      "text": "文，目次，挿絵一覧，",
+      "page": 769
+    },
+    {
+      "level": "H3",
+      "text": "どの内容を区分して付",
+      "page": 774
+    },
+    {
+      "level": "H3",
+      "text": "書籍の内容が大きく区",
+      "page": 787
+    },
+    {
+      "level": "H3",
+      "text": "内容の区切りをはっき",
+      "page": 787
+    },
+    {
+      "level": "H3",
+      "text": "目次",
+      "page": 800
+    },
+    {
+      "level": "H3",
+      "text": "本の内容の見出しを，",
+      "page": 800
+    },
+    {
+      "level": "H2",
+      "text": "H. References  参考文献 §",
+      "page": 806
+    },
+    {
+      "level": "H2",
+      "text": "I. Acknowledgements  謝辞 §",
+      "page": 806
+    },
+    {
+      "level": "H2",
+      "text": "J. Revision Log  変更記録 §",
+      "page": 806
+    },
+    {
+      "level": "H3",
+      "text": "英語版と日本語版の統合，および言語切替機能の導入．",
+      "page": 807
+    }
+  ]
+}

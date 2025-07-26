@@ -1,0 +1,2 @@
+Persona: Data Science Intern
+Task: Summarize key ML algorithms from training material

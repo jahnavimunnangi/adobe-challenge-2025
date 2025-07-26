@@ -1,0 +1,2220 @@
+{
+  "title": "Annotation Guidelines for Hindi",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Annotation",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Guidelines for Hindi",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Contents",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Value\\symbol",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Annotation Guidelines for Hindi",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Introduction",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Structure of the Framework (ILPOSTS)",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Description of Hindi Tagset",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "o   Not-applicable (0)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "o   Undecided or doubtful  (x)",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Description of Tags",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "1.   -e (-A  ending masculine), e.g.,  रड़का-रड़के  la.DkA – la.Dke,",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "2.   Zero plural (consonant ending and vowel other than –a ending masculine nouns), e.g.,   बाई  bhAi,",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "रौहाय   lauhAra etc.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "3.   -o.N (all oblique masculine forms and feminine nouns other than –I ending), e.g.,  रड़कों  la.Dko.N,",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "फहनों   bahano.N,  भाताओॊ  mAtAo.  etc.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "4.   –I ending feminine nouns have –iyo.N, e.g.  रड़ककमों  la.Dkiyo.N",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "6.   -iyo (for –I ending feminine nouns vocative case), e.g.,  रड़ककमों  la.Dkiyo.N  etc.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "7.   -iyA.N (for –I ending feminine nouns direct case), e.g.,  रड़ककमाॉ  larkiyA.N",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "8.   -e.N (for feminine nouns other than –I ending, direct case), e.g.,  भाताएॉ  mAtAe.N,  फहनें   bahne.N",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "कुछ \\JQ.0.pl.dir.n.nnm",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "याज्म \\NC.0.pl.dir.0",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "रागत \\JJ.0.sg.dir",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "विबाजन \\NC.0.sg.dir.0",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "व्मिस्था \\NC.0.sg.dir.0  के \\PP.0.sg.gen  सॊफॊध",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "सम्ऩन्न \\JJ.mas.sg.dir  िग \\NC.mas.sg.dir.gen  के \\PP.neu.sg.gen  रोग \\NC.mas. pl .dir.0  ही   उठामा",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "कयते   थे",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Vah  la.DakA \\NC.mas.sg.dir.0    pe.D \\ NC.mas.sg.dir.0",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kATatA  thA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "है",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "La.DakI",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "seba",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "khA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rahI",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rAma",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kal",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "ek",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "la.DakI  se",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "lAlabAga",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "me",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "milane  jA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rahA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rAma",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kala",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kucha laRkiyo.N",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "se",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "lAlabAga",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "me",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "milne  jA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rahA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rAma",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kala",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "eka",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "acche  la.Dake     se",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "lAlabAga",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "me",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "milne  jA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rahA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hai.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rAma",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kala",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "kuCha  acche  la.Dake     se",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "lAlabAga",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "me",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "milne  jA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "rahA",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hai.\\",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "e la.Dake…",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "vah",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "do",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "dina",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "(taka) ghara (me.N/ para)",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "rahA",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "mere/ rAma se  yaha kAma  nahI.N hotA",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "भुझे फहुत सयददग है",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "mujhe bahut  sardarda hai.",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Case markers in Hindi are usually postpositions that refer to different cases, e.g., / se /  ‘ Instrumental or",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Ablative ’  case.  Case marker in our framework is  optional , i.e., it is not necessary to annotate the values",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "श्रभ \\NC.mas.sg.dir.0,  धाया \\NC.fem.sg.obl.loc",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "भें \\PP.0.0.loc,",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "फातों \\NC.fem.pl.obl.gen",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "की \\PP.fem.sg.ge,",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "बाबी \\NC.fem.sg.obl.gen",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "का \\PP.mas.sg.gen",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "चेहया \\NC.mas.sg.dir.0,  शयीय \\NC.mas.sg.obl.loc  ऩय \\PP.0.0.loc.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "के \\PP.0.sg.gen  साथ \\PP.0.sg.soc  together acts as sociative case marker. In this case, the first of",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "annotated as ‘0’, e.g.,",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "कामभ \\NC.0.0.dir.0  कयते \\VM.0.0.0.0.0.0.ifn.n  हुए \\VAUX.0.sg.0.0.0.0.nfn.n,",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "सारों-सार \\NC   िॊचचत \\JJ.0.0.dir   यही \\VM",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "ह ॊ \\VAUX",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Class kI",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "sAre",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "kavitAyeN",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "gAnA  gAtI",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "hE",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "1.3.   VERBAL NOUNS (NV)",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "tairnA\\NV.dir.0",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "achhA",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "hotA",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "rAm",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "tairne\\NV.obl.gen",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "ke",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "lie",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "gayA",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "ऩ या \\JJ.mas.sg.dir  होने \\NV.obl.gen  की \\PP.fem.sg.gen  उम्भीद \\NC.fem.sg.dir.0  है \\VM.0.sg.3.prs.sim.dcl.fin.n",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "1.4.   SPATIO-TEMPORAL NOUNS (NST)",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "nouns, similar to  kapRAwAlA\\NC.sg.dir.0, dudhwAlA\\NC.sg.dir.0,  e.g.,",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "acChAwAlA\\NC.sg.dir.0  etc.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "saMvAda\\NC.0.dir.0",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "pratibedaka\\NC.sg.dir.0",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "pAlana\\NC.0.dir.0",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "karate\\VM.0.0.0.0.0.0.ifn.n",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "huye\\ VAUX",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "vah   la.DkA  gAnA   gAtA\\VM.mas…",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "hai \\ VAUX.0",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "vah       la.DkI      gAnA",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "gAtI\\VM.fem  hai \\ VAUX.0",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "vah   la.DkA  gAnA   gAtA\\VM.ma.sg…",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "hai \\ VAUX.0",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "vah       la.DkI      gAnA",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "gAtI\\VM.fem.sg",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "hai \\ VAUX.0",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "us   la.Dke  ne kala  gAnA gAyA  thA",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "ve   la.Dke kala   gAnA gAye.nge",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "future. The verb ‘ ho ’ (to be) carries the tense and nominal agreement information (gender, number,",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "rAma chAwala",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "khAtA\\VM",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "hai\\VA.0.sg.3.prs.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "rAma chAwala",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "khAtA\\VM",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "thA\\VA.0.sg.3.pst.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "rAma chAwala",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "khAyegA\\VM.mas.sg.3.fut.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "ऩ या   होने   की   उम्भीद   है \\VM.0.sg.3.prs.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "e.g.,",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "मभरता \\ VM .mas.0.0.0.0.0.ifn.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "है \\ VAUX. 0.sg.3.prs.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "\\NC",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "कयते \\VM. mas.0.0.0.0.0.ifn.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "थे \\VAUX .0.sg.3.pst.sim.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "कुछ     याज्म     रागत     विबाजन     व्मिस्था",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "के",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "सॊफॊध",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "भें     ऩहरे         ही        सहभत \\ NC",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "हो \\ VM .0.0.0.0.0.0.ifn.n  गए \\ VAUX. mas.sg.3.prs.sim.dcl.fin.n  हैं \\ VAUX .0.sg.3.prs.sim.dcl.fin.y । \\PU",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाएॊ \\NC.0.pl.dir.0  चर \\ VM .0.0.0.0.0.0.ifn.n  यही \\ VAUX .fem.sg.3.prs.prg.dcl.fin.n",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "हैं \\ VAUX. 0.pl.3.prs.sim.dcl.fin.n  । \\PU",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "ritA Ama khAti\\VM.fem.sg.3.0. simp. dcl.fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "hai/VAUX.fem.sg.3.prs.pft.simp.fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ritA Ama khAti\\VM.fem.sg.3.0.simp. hab .fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "thI/VAUX.fem.sg.3.pst.simp.dcl.fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ritA  ne roTI  khAyI\\VM.fem.sg.3.0.pft.dcl.fin.n hai/thi\\VAUX",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "rAma ne  Ama  khAyA\\VM.mas.sg.3.0.pft.dcl.fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "hai/thi\\VAUX",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाएॊ चर \\VM.0.0.0.0.0.0.ifn.n  यही \\VAUX.fem.sg.3.0.prg.dcl.fin.n   हैं \\VAUX.0.pl.3.prs.sim.dcl.fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "khAo \\VM.0.sg.2.prs.simp. imp .fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ritA  Ama   khAti\\VM.fem.sg.3.0.simp. hab .fin.n thI/VAUX.fem.sg.3.pst.simp..fin.n",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "a.   Infinitive:  kartA  huyA : inflected for gender only",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "b.   Non-finite:  kara  chuka,  bol  rahA hai,  khAne  jA rahA hai",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "प्रनतपर \\NC.0.sg.obl.0  को \\PP.0.sg.acc  देखते \\VM.0.0.0.0.0.0.ifn.n  हुए \\VAUX.0.0.0.0.0.0.nfn.n",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाएॊ \\NC.0.pl.dir.0",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "चर \\VM.0.0.0.0.0.0.ifn.n",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "यही \\VAUX.fem.sg.3.prs.prg.dcl.fin.n",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "हैं \\VAUX.0.pl.3.prs.sim.dcl.fin.n",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाएॊ",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "चर \\VM.0.0.0.0.0.0.ifn.n",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "यही \\VAUX.fem.sg.3.0.prg.dcl.fin.n",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "हैं \\VAUX.0.sg.3.prs.sim.dcl.fin.n",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Case :",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Mai.N-mujh-merA/mere/merI; tu- tujh- terA/ terI/ tere; koi-kisi-kisikA/kinake/kinakI;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "uskI",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "kitAba ,",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "uskA",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "ghara",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "merA, merI, mere  etc.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "distribution would be easily identifiable in presence of reduplication. E.g., koi koi, kuCha kuCha  etc.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "e.g.,  मह \\PPR.0.sg.3.dir.0.n.n.0.n  एक",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "आिद्गमक",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "द्यातग",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "होगी",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "antecedent), e.g., the reflexive pronoun is ‘ Apa’,  the oblique form is ‘ apane ’.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "apanA, apanI(gender) and apane (number)",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "satIsha ko",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "apanA   ghara sabase acChA  lagtA  hai.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "sImA",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "apani  bahana ko/ se  bahota pyAra",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "karti",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "sAre",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "la.Dke  Apane  ghar cale gaye",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "The reciprocal is ‘ apne Ap ’. Cases are annotated if they are marked morphologically.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "e.g.,  kyA- kisa- kisakA/kisakI/kisake, kona- kina-kinakA/kinake/kinakI  etc.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "null. E.g.,  achhA laRkA, acche laRke, acchi laRki, acchi laRkiyaN etc.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "नई \\JJ.fem.pl.dir  राइनों \\NC.fem.pl.obl.0;",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "सम्ऩन्न \\JJ.mas.sg.dir  िग \\NC.mas.sg.dir.gen  के \\PP.neu.sg.gen  रोग \\NC.mas.sg.dir.0  ही   उठामा   कयते   थे",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "chatur laRkA/ laRke/ laRkI/ larkiyAN",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "laRkA/ laRkI/ larke/ larkiyaN acchA/acchI/accheN hE",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "एक \\JQ.0.sg.dir.n.crd  भहत्त्िऩ र्ग \\JJ.0.sg.dir  ब मभका \\NC.0.sg.dir.0",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "कामग \\NC.mas.sg.dir.0  को \\PP.0.sg.acc  ऩ या \\JJ.mas.sg.dir  कयने \\NV.obl.0  का \\PP.mas.sg.gen  प्रस्ताि",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "सॊमोजकता \\NC.0.sg.dir.0  प्राप्त \\JJ.0.sg.dir  होती \\VM.fem.0.0.0.0.0.ifn.n  है",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "स्िर्र्गभ \\JJ.0.sg.dir  चतुबुगज \\NC.0.sg.dir.0  भें",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "चमननत \\JJ.0.sg.dir  सेक्द्द्गानों \\NC.0.pl.obl.0  की \\PP.fem.sg.gen  भल्टी-प्रेकक्द्सॊग",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "सॊफॊचधत \\JJ.0.sg.dir  ऩरयमोजनाओॊ",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "अनेक \\JQ.0.pl.dir.n.nnm  भहानगयीम \\JJ.0.sg.dir  ऩरयमोजनाएॊ",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "दसिीॊ \\JQ.0.sg.dir.n.ord  मोजना \\NC.mas.sg.dir.0;",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "thorA sA pAni, thoRi si sharArat, wo pahlI bAr, pahlA nashA etc.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "inherent numeral qualities e.g., ‘ ek ’ would be singular, but ‘ anek ’ would be plural.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Kuch (pl) acche larke aye the,",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Kuch (pl) acchi larkiyaN ayii thii",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Kuch(pl) samay  (uncountable)",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "एक \\JQ.0.sg.dir.n.crd  भहत्त्िऩ र्ग \\JJ.0.sg.dir  ब मभका \\NC.0.sg.dir.0  ननबाती \\VM.fem.sg.3.prs.sim.dcl.fin.n",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "हैं \\VAUX.0.sg.3.prs.sim.dcl.fin.y",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "कुछ \\JQ.0.pl.dir.n.nnm  याज्म   रागत   विबाजन   व्मिस्था   के   सॊफॊध    भें",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "सबी \\JQ.0.pl.dir.n.nnm  नई \\JJ.fem.sg.dir  ऩरयमोजनाओॊ   के   सॊफॊध",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "pronoun is not followed by another noun, pronoun or adjective. Reduplication of pronouns, such as, ‘ jo",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "jo’, ‘jisa jisa ko ’ etc are treated as pronouns, and not demonstratives.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "is/ us  kitAb ko idhara do",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "yah/ vah  ghar acchA nahi hai",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "e.g. ,  उन \\DAB.pl.dir.n  कामों   को ,  मह   आमोजन   होगा ,  इस   अिसय   ऩय ,  मह   सऩना   देखा   था ,  इसी   िजह   से ,  इन   नहयों",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "का   प्रफॊधन ,  मे   आॉकड़े   कतई   आश्चमगजनक   नहीॊ   हैं",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "इसका \\DAB  आकाय ,  इसका \\DAB  प्रभुख \\JJ\\  कायर्    मह \\DAB  था \\VAUX,  अफ \\DAB  मशयशोि   सभुद्र   विऻान   सॊस्थान ,",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "मही \\DAB  कायर्   है ,  महाॉ \\DAB  उल्रेखनीम   है",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Jis   Adami ko ye bAta",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "patA",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "hai…",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "6.1.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Some other adverbs like -  Aise  hI kAma karnA cahiye,  kayse ,  jaise ,  vaise  itnA   etc.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Manner adverbials are sometimes coined with ‘ se ’, ‘ pUrvak ’ etc. too, e.g., jaldi se A jAo",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "In the above cases, if the postposition i.e., ‘ se ’ is attached to the preceding word, it is tagged as",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "an adverb; otherwise, they are tagged as post positions. e.g.,  jaladi\\AMN.obl.0.n se",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "aba, yahA.N, wahA.N, taba, udhara, kidhara, kahA.n, Aja, kal  etc.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "उन   कामों    को \\PP.0.sg.acc  ऩ या   कयने   ऩय \\PP.0.sg.loc  फर   ददमा …",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाओॊ   से \\PP.0.sg.abl  ऩरयऩक्द्िता   िारे    खण्डों \\NC.0.pl.obl.0  की \\PP.fem.sg.gen  ऺभता \\NC.0.sg.dir.0",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "भें \\PP.0.sg.loc  िृवि …",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "kuCha bhI",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "nA\\CX",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "kahate  huye",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "vah",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "calA",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "gayA",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "mujhe  Ama",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "nahi\\CX",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "khAnA",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "syntactically subordinating one to the other. These are similar to English-  and, or  and  but ; e.g.,",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "aur\\CCD.n ,  etc.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ऺभता     भें",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "िृवि",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "होगी",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "औय \\CCD.n   ट्रैकपक",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "के",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "आिागभन",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "की",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "फाधाएॊ",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "e.g.,  ऩय \\CSB.n   कामग",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "को",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ऩ या",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "कयने",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "का",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "प्रस्ताि …",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "कजनसे    ऩिनों /  उद्योगों",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "की",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "सॊमोजकता",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "प्राप्त",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "होती",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "है",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "तथा \\CSB.n   कजन",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाओॊ",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "से",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयऩक्द्िता",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "A classifier particle acts as unit nouns, e.g.,  5০০   crore\\ CCL.n,  ityAdi\\CCL.n etc.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Words that express emotion are interjections, e.g.,  wAh \\CIN.n,  shAbAsh \\CIN.n,  are \\CIN.n   etc.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "merA to \\CX.n  yahi etc.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयऩक्द्िता",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "िारे \\CX.n  खण्डों   की",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "ऩहरे",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "ही \\CX.n   सहभत   हो",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "गए",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "हैं   ।",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "16\\RDF , buildings\\RDF, Alexander\\RDF the\\RDF great\\RDF,  ˈ a ɪ z ə k\\RDF  ˈ æz ɪˌ m ɑ v\\RDF,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Исаак \\RDF  Озимов \\RDF etc.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "language also, e.g.,  (\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": ")\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "$\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "&\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "+\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "%\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "@\\RDS,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "#\\RDS   etc.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "This tag is given to words that are written in Hindi numerals. E.g.,  १३१० \\RDX,  २ \\RDX  etc.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Attributes- Values  and",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "ABBREVIATIONS",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Singular",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(sg)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Plural",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(pl)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "First",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(1)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Second",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(2)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Third",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(3)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Present",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(prs)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Past",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(pst)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Future",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(fut)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Ergative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(erg)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Accusative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(acc)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Instrumental",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(ins)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Dative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(dat)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Genetive",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(gen)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Sociative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(soc)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Locative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(loc)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Ablative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(abl)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Benefective",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(bnf)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Vocative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(voc)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Purposive",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(pur)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Simple",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(smp)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Progressive",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(prg)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Perfect",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(prf)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Declarative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(dcl)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Imperative",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(imp)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Habitual",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(hab)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Finite",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(fin)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Non-finite",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(nfn)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Infinite",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "(ifn)",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "y",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "n",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "y",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "n",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "y",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "n",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "y",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "n",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Ordinal",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "(ord)",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Cardinal",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "(crd)",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Non-numeral",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "(nnm)",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "o   when suffixed, the word should be annotated with a single tag as Participle-general",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "o   when written separately after verb, they should be annotated as Verb-infinitive and",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Particle  respectively",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "suffixed or not. But is it is written together, then the tag of the whole word would be  JJ , e.g.,",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "AnewAlA\\ JJ.mas.sg.dir",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "pal",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "jAnewAla\\ JJ.mas.sg.dir",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Ane \\NV.obl.0",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "wAlA\\CX.n",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "pal",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "jAne\\NV.obl.0 wAla\\CX.n",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "hai",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "consider  shrI, jI, sAhAb  etc. are part of proper nouns and would be tagged as proper nouns. Consider,",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "beTI",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "bacAMo \\NP.0.0.0.0",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Andolan",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "beTI",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "bacAMo\\ VM.0.sg.2.prs.sim.imp.n",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "kA",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "nARA.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "2.   ऩय \\CSB  कामग \\NC.mas.sg.dir.0  को \\PP.0.sg.acc  ऩ या \\JJ.mas.sg.dir",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "कयने \\NV.obl.0  का \\PP.mas.sg.gen  प्रस्ताि \\NC.mas.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "है \\VM.0.sg.3.prs.sim.dcl.fin.n  । \\PU",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "3.   २ \\RDX  उन \\DAB.pl.dir.n  उद्योगों \\NC.0.pl.obl.0  को \\PP.0.sg.acc",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "प्राप्त \\JJ.0.sg.dir  कयने \\NV.obl.0  ऩय \\PP.0.sg.loc  फर \\NC.mas.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "ददमा \\VM.mas.0.0.0.0.0.nfn.n  जाएगा \\VM.mas.sg.3.fut.sim.0.fin.n",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "4.   कजनसे \\PRL.pl.obl.abl.n.n.n  ऩिनों \\NC.0.du.obl.0  की \\PP.mas.sg.gen",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "सॊमोजकता \\NC.0.sg.dir.0  प्राप्त \\JJ.0.sg.dir  होती \\VM.fem.0.0.0.0.0.ifn.n",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "है \\VAUX.0.sg.3.prs.sim.dcl.fin.n  तथा \\CSB  कजन \\DRL.pl.obl.n.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयमोजनाओॊ \\NC.0.pl.obl.0  से \\PP.0.sg.abl  ऩरयऩक्द्िता \\NC.0.sg.dir.0  िारे \\CX",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "खण्डों \\NC.0.pl.obl.0  की \\PP.fem.sg.gen  ऺभता \\NC.0.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "भें \\PP.0.sg.loc  िृवि \\NC.0.sg.dir.0  होगी \\VM.fem.sg.3.fut.sim.dcl.fin.n",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "औय \\CCD  ट्रैकपक \\NC.0.sg.dir.0  के \\PP.fem.sg.gen  आिागभन \\NC.0.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "की \\PP.fem.sg.gen  फाधाएॊ \\NC.0.pl.dir.0  द य \\NC.fem.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "होंगी \\VM.fem.sg.3.fut.sim.dcl.fin.n  । \\PU",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "5.   ३ \\RDX  ऺभता \\NC.0.sg.dir.0  को \\PP.mas.sg.acc ,\\PU  विद्गोि \\JJ.0.sg.dir",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "रूऩ \\NC.0.sg.dir.0  से \\PP.0.sg.abl  स्िर्र्गभ \\JJ.0.sg.dir",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "चतुबुगज \\NC.0.sg.dir.0  भें \\PP.0.sg.loc  ऺभता \\NC.0.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "को \\PP.0.sg.acc  फढ़ाने \\NV.obl.0  के \\PP.0.sg.0  उद्देद्गम \\NC.0.sg.dir.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "से \\PP.0.sg.0  चमननत \\JJ.0.sg.dir  सेक्द्द्गानों \\NC.0.pl.obl.0",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "की \\PP.fem.sg.gen  भल्टी - प्रेकक्द्सॊग \\NC.0.sg.dir.0  से \\PP.0.sg.ins",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "सॊफॊचधत \\JJ.0.sg.dir  ऩरयमोजनाओॊ \\NC.0.pl.obl.0  को \\PP.0.sg.acc",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "द्याुरू \\JJ.0.sg.dir  कयना \\NV.dir.0  आिद्गमक \\JJ.0.sg.dir",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "होगा \\VM.mas.sg.3.fut.sim.dcl.fin.n  । \\PU",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "6.   विमबन्न \\JQ.0.pl.dir.n.nnm  याज्मों \\NC.0.pl.obl.0  भें \\PP.0.sg.loc",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "अनेक \\JQ.0.pl.dir.n.nnm  भहानगयीम \\JJ.0.sg.dir  ऩरयमोजनाएॊ \\NC.0.pl.dir.0",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "चर \\VM.0.0.0.0.0.0.ifn.n  यही \\VAUX.fem.sg.3.0.prg.dcl.nfn.n",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "हैं \\VAUX.0.sg.3.prs.sim.dcl.fin.n  । \\PU",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "7.   कुछ \\JQ.0.pl.dir.n.nnm  याज्म \\NC.0.pl.dir.0  रागत \\JJ.0.sg.dir",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "विबाजन \\NC.0.sg.dir.0  व्मिस्था \\NC.0.sg.dir.0  के \\PP.0.sg.gen",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "सॊफॊध \\NC.0.sg.dir.0  भें \\PP.0.sg.loc  ऩहरे \\NST.dir.0  ही \\CX",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "सहभत \\NC.0.sg.dir.0  हो \\VM.0.0.0.0.0.0.ifn.n",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "गए \\VAUX.mas.sg.3.0.prf.dcl.fin.n  हैं \\VAUX.0.sg.3.prs.sim.dcl.fin.y",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "। \\PU",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "8.   सड़कें \\NC.0.pl.obl.0 ,\\PU  हिाई \\NC.0.0.dir.0  अड्डों \\NC.0.pl.obl.0 ,\\PU",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "येरिे \\NC.0.0.dir.0  स्टेद्गानों \\NC.0.pl.obl.0  औय \\CCD.n",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "फन्दयगाहों \\NC.0.pl.obl.0  के \\PP.0.sg.gen  साथ \\PP.0.sg.soc",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "सॊमोजन \\NC.0.sg.dir.0  कामभ \\NC.0.0.dir.0  कयते \\VM.0.0.0.0.0.0.ifn.n",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "हुए \\VAUX.0.0.0.0.0.0.nfn.n ,\\PU  अन्तय - भाडर \\NC.0.sg.dir.0",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "ऩरयिहन \\NC.0.sg.dir.0  विकास \\NC.0.sg.obl.0  भें \\PP.0.sg.loc  बी \\CX",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "एक \\JQ.0.sg.dir.n.crd  भहत्त्िऩ र्ग \\JJ.0.sg.dir  ब मभका \\NC.0.sg.dir.0",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "ननबाती \\VM.fem.sg.3.0.sim.dcl.nfn.n  हैं \\VAUX.0.sg.3.prs.sim.dcl.fin.y",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "। \\PU",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "References",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "1.   Dandapat, S. 2008 .  MSRI Part-of-Speech Annotation Interface . Draft. Microsoft Research India",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "2.   Framework for a Common Parts-of-Speech Tagset for Indian Languages . Draft. Microsoft",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "3.   Kachru, Y. 2006.  Hindi.  Amsterdam/Philadelphia: John Benjamins.",
+      "page": 41
+    }
+  ]
+}
